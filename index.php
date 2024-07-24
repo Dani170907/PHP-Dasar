@@ -91,6 +91,5 @@
             <?php endforeach; ?>
         </table>
     </div>
-    <div class="container">Latihan 2</div>
     </body>
     </html>
