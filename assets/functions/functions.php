@@ -14,7 +14,6 @@ function query($query) {
 }
 
 
-
 function tambah($data) {
     global $connDatabase;
     // ambil data dari tiap elemen dalam form
@@ -35,7 +34,6 @@ function tambah($data) {
 
     return mysqli_affected_rows($connDatabase);
 }
-
 
 
 function upload() {
@@ -77,12 +75,10 @@ function upload() {
     $namaFileBaru .= '.';
     $namaFileBaru .= $ekstensiGambar;
 
-
     move_uploaded_file($tmpName, 'assets/foto/' . $namaFileBaru);
 
     return $namaFileBaru;
 }
-
 
 
 function hapus($id) {
@@ -90,7 +86,6 @@ function hapus($id) {
     mysqli_query($connDatabase, "DELETE FROM siswa where id = $id");
     return mysqli_affected_rows($connDatabase);
 }
-
 
 
 function ubah($data) {
@@ -126,7 +121,6 @@ function ubah($data) {
 }
 
 
-
 function cari($keyword) {
     global $connDatabase;
     $keyword = mysqli_real_escape_string($connDatabase, $keyword);
@@ -139,7 +133,6 @@ function cari($keyword) {
             ";
     return query($query);
 }
-
 
 
 function registrasi($data) {
