@@ -14,7 +14,6 @@ $id = $_GET["id"];
 // query data siswa berdasarkan id
 $ssw = query("SELECT * FROM siswa WHERE id = $id")[0];
 
-
 // cek apakah tombol submit sudah ditekan atau belum
 if( isset($_POST["submit"]) ) {
     // cek apakah data berhasil di ubah atau tidak 
@@ -33,10 +32,9 @@ if( isset($_POST["submit"]) ) {
         </script>
         ";
     }
-    
 }
-
 ?>
+    
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -82,8 +80,6 @@ if( isset($_POST["submit"]) ) {
                 <button type="submit" name="submit">ubah Data!</button>
             </li>
         </ul>
-
-
     </form>
 </body>
 </html>
