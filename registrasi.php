@@ -1,4 +1,5 @@
 <?php
+
 require 'assets/functions/functions.php';
 
 if (isset($_POST["register"])) {
@@ -10,7 +11,6 @@ if (isset($_POST["register"])) {
         echo mysqli_error($connDatabase);
     }
 }
-
 ?>
 
 <!DOCTYPE html>
@@ -51,8 +51,6 @@ if (isset($_POST["register"])) {
                 <button type="submit" name="register">Register</button>
             </li>
         </ul>
-
     </form>
-
 </body>
 </html>
