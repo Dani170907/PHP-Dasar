@@ -67,7 +67,7 @@ INSERT INTO `siswa` (`id`, `nama`, `nis`, `status`, `alamat`, `tanggal_lahir`, `
 (23, 'Muhammad Daniel Firdaus', '22.6407', 'Active', 'Jl. Balaidesa Podo No. 53 RT 07 RW 2 Gang Masjid Jami Darul Falah', '2007-02-06', 'DF.png'),
 (24, 'Muhamad Dava Mubaligh', '22.6408', 'Active', 'Dukuh Pujut RT RW 004 002 Kelurahan Pujut Kec. Tersono Kab. Batang', '2006-07-24', 'DM.png'),
 (25, 'Muhammad Dimas Saputro', '22.6409', 'Active', 'Buaran Gg 3 No. 277 A RT 05 RW 03 Kec. Pekalongan Selatan', '2007-05-07', 'DS.png'),
-(26, 'Muhammad Indra Isnawan', '22.6410', 'Active', 'Dk Pujut RT RW 005 002 Kelurahan Pujut Kec. Tersono Kab. Batang', '2007-01-26', 'II.png'),
+(26, 'Muhammad Indra Isnawan', '22.6410', 'Active', 'Ds. Pujut RT RW 005 002 Kelurahan Pujut, Kec. Tersono Kab. Batang', '2007-01-26', 'II.png'),
 (27, 'Muhammad Jihadil Barran', '22.6412', 'Siswa Keluar', 'NO DATA', NULL, 'XI.png'),
 (28, 'Muhammad Irfan Amrullah', '22.6411', 'Active', 'Kec. Warungasem, Kab. Batang', '2007-01-22', 'IAM.png'),
 (29, 'Muhammad Khirzul Iman', '22.6413', 'Active', 'Kuripan Lor RT 3 RW 2 Kec. Pekalongan Selatan', '2007-06-26', 'KI.png'),
